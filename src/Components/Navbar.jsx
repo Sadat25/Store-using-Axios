@@ -25,9 +25,6 @@ const Navbar = () => {
                     <li>
                         <NavLink to="/" className="hover:text-white/70 transition">Home</NavLink>
                     </li>
-                    <li>
-                        <NavLink to="/details" className="hover:text-white/70 transition">Products Details</NavLink>
-                    </li>
                 </ul>
                 <button type="button" className="bg-white text-gray-700 md:inline hidden text-sm hover:opacity-90 active:scale-95 transition-all w-40 h-11 rounded-full">
                     Get started
